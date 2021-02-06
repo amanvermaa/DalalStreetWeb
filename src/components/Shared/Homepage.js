@@ -26,23 +26,18 @@ export default function Homepage({ lightBg, horizontalAlign, topline, headline, 
                         </div>
                         :
                         <>
-                            <div className="row home-row-full">
+                            <div className="row home-row">
                                 <div className="home-text-wrapper">
                                     <div className="topline">{topline}</div>
                                     <h1 className="headline">{headline}</h1>
                                     <p className="description">{description}</p>
                                 </div>
                             </div>
-                            <div className="row home-row-full">
+                            <div className="row home-row">
                                 <div className='home-img-wrapper'>
-                                    {
-                                        imgCount > 1 ?
-                                            img.map(x => {
-                                                <img src={x} alt={altText} className='home-img' />
-                                            })
-                                            :
-                                            <img src={img} alt={altText} className='home-img' />
-                                    }
+                                    <img src={img[0]} alt={altText} className='home-img' />
+                                    <img src={img[1]} alt={altText} className='home-img' />
+                                    <img src={img[2]} alt={altText} className='home-img' />
                                 </div>
                             </div>
                         </>
