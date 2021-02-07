@@ -65,8 +65,10 @@
 
 .home-img-wrapper{
   max-width: 555px;
-  display: inline-block;
-  
+}
+.home-img-wrapper-row{
+  align-content: center;
+
 }
 .home-img{
   max-width: 95%;
@@ -75,12 +77,19 @@
   margin-left: 10px;
   padding-right: 0;
 }
+.home-img-row{
+  max-width: 95%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 30px;
+  padding-right: 0;
+}
 
 img {
   border: 0;
   max-width: 100%;
   vertical-align: middle;
-  /* display: inline-block; */
+  display: inline-block;
 }
 
 @media screen and (max-width: 991px) {
@@ -88,5 +97,4 @@ img {
     padding-right: 30px;
     padding-left: 30px;
   }
-  
 }

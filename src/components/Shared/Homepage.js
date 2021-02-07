@@ -1,4 +1,3 @@
-import react, { Fragment, useEffect, useState } from 'react';
 import './Homepage.css'
 
 export default function Homepage({ lightBg, horizontalAlign, topline, headline, description, img, imgCount, altText }) {
@@ -34,10 +33,10 @@ export default function Homepage({ lightBg, horizontalAlign, topline, headline, 
                                 </div>
                             </div>
                             <div className="row home-row">
-                                <div className='home-img-wrapper'>
-                                    <img src={img[0]} alt={altText} className='home-img' />
-                                    <img src={img[1]} alt={altText} className='home-img' />
-                                    <img src={img[2]} alt={altText} className='home-img' />
+                                <div className='home-img-wrapper-row'>
+                                    <img src={img[0]} alt={altText} className='home-img-row' />
+                                    <img src={img[1]} alt={altText} className='home-img-row' />
+                                    <img src={img[2]} alt={altText} className='home-img-row' />
                                 </div>
                             </div>
                         </>
