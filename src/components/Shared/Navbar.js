@@ -3,7 +3,10 @@ import './Navbar.css';
 import { SiElasticstack } from 'react-icons/si';
 import { IoMdMenu } from 'react-icons/io';
 import { AiOutlineClose } from 'react-icons/ai';
+import { BsQuestion } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+
+
 
 
 export default function Navbar() {
@@ -35,7 +38,7 @@ export default function Navbar() {
             <div className="container">
                 <Link to="./" className="menu-icon">
                     <SiElasticstack className="menu-logo mr-2" onClick={closeMobileMenu} />
-                    Loads
+                    DSL
                 </Link>
                 <div className="menu-icon" onClick={handleMenuClick}>
                     {
@@ -54,8 +57,10 @@ export default function Navbar() {
                     }
                 </a> */}
                 <ul className={menuClick ? "nav-menu active" : "nav-menu"}>
-                    <li className="nav-item">About</li>
-                    <li className="nav-item">Contact</li>
+                    <li className="nav-item">
+                        Help
+                        <BsQuestion className="pl-2" />
+                    </li>
                 </ul>
             </div>
         </div >
