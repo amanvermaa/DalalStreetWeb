@@ -2,9 +2,9 @@
 export const homepageSectionA = {
     lightBg: false,
     horizontalAlign: true,
-    topline: "Lorem Ipsum dolor",
+    topline: "ETERNITY INFOTAINMENT",
     headline: "Skill Based Gaming App",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tristique ex, a fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et mauris vulputate nunc tincidunt aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tristique ex, a fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et mauris vulputate nunc tincidunt aliqua.",
+    description: "DSL is an Indian fantasy gaming platform that allows users to play fantasy stock trading with information and gain knowledge regarding working of financial markets.",
     img: "Image/Homepage.png",
     imgCount: 1,
     altText: ""
@@ -14,7 +14,7 @@ export const homepageSectionB = {
     horizontalAlign: false,
     topline: "",
     headline: "Easy to play and learn.",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel tristique ex, a fermentum lacus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et mauris vulputate nunc tincidunt aliqua.",
+    description: "DSL gaming platform is executing its vision of ‘Make trading Better’ by providing multiple avenues for people to deeply engage with the stocks they love through fantasy trading and providing better information and knowledge of trading and stock market.To enable them to understand financial markets better and become financially independent through  investing little amount of money and securing good returns. With the help of gamifications in DSL, people will be able to understand how and why stocks fluctuate in stock market.",
     img: ["Image/Guide1.png", "Image/Guide2.png", "Image/Guide3.png"],
     imgCount: 3,
     altText: ""
