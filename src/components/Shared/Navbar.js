@@ -38,7 +38,7 @@ export default function Navbar() {
             <div className="container">
                 <Link to="./" className="menu-icon">
                     <SiElasticstack className="menu-logo mr-2" onClick={closeMobileMenu} />
-                    DSL
+                    Bulls N Bear
                 </Link>
                 <div className="menu-icon" onClick={handleMenuClick}>
                     {

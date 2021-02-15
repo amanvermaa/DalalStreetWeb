@@ -2,10 +2,10 @@
 export const homepageSectionA = {
     lightBg: false,
     horizontalAlign: true,
-    topline: "ETERNITY INFOTAINMENT",
+    topline: "",
     headline: "Skill Based Gaming App",
     description: "DSL is an Indian fantasy gaming platform that allows users to play fantasy stock trading with information and gain knowledge regarding working of financial markets.",
-    img: "Image/Homepage.png",
+    img: "Image/bullsAndBear.png",
     imgCount: 1,
     altText: ""
 }
